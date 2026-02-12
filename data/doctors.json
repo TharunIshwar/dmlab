@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "name": "Dr. Sarah Johnson",
+        "role": "Chief Dermatologist",
+        "specialty": "Cosmetic Dermatology",
+        "image": "assets/images/doctors/doctor1.png"
+    },
+    {
+        "id": 2,
+        "name": "Dr. Michael Chen",
+        "role": "Plastic Surgeon",
+        "specialty": "Facial Reconstruction",
+        "image": "assets/images/doctors/doctor2.png"
+    },
+    {
+        "id": 3,
+        "name": "Dr. Emily Davis",
+        "role": "Clinical Aesthetician",
+        "specialty": "Holistic Skincare",
+        "image": "assets/images/doctors/doctor3.png"
+    }
+]

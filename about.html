@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | Lumina Skin Clinic</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="loader-wrapper" id="loader">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Reusing Header (Ideally this would be a component inclusion, but standard HTML requires duplication or JS frame) -->
+    <header class="header" id="header">
+        <div class="container header-container">
+            <a href="index.html" class="logo">
+                <i class="fa-solid fa-leaf text-primary"></i>
+                Lumina Skin Clinic
+            </a>
+            <button class="mobile-toggle"><i class="fa-solid fa-bars"></i></button>
+            <nav class="navbar-nav">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link active">About Us</a>
+                <a href="services.html" class="nav-link">Services</a>
+                <a href="doctors.html" class="nav-link">Doctors</a>
+                <a href="blog.html" class="nav-link">Blog</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+                <a href="appointment.html" class="btn btn-primary btn-sm">Book Appointment</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero-section" style="height: 50vh; background-image: url('assets/images/hero/about-hero.png');">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>About Lumina</h1>
+            <p>Where Science Meets Beauty</p>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <div class="grid grid-2 gap-lg">
+                <div class="reveal">
+                    <h2>Our Mission</h2>
+                    <p>To provide world-class dermatological care and aesthetic treatments in a safe, luxurious, and
+                        welcoming environment.</p>
+                    <p>We believe that healthy skin is the foundation of confidence. Our team works tirelessly to
+                        deliver personalized results for every patient.</p>
+                </div>
+                <div class="reveal">
+                    <img src="assets/images/about-preview.png" alt="Clinic Interior"
+                        style="border-radius: var(--radius-md);">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <!-- Content similar to index.html -->
+        <div class="container text-center">
+            <p>&copy; 2026 Lumina Skin Clinic.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/components/navbar.js"></script>
+    <script src="js/components/scrollAnimations.js"></script>
+</body>
+
+</html>

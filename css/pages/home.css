@@ -1,0 +1,49 @@
+/* Home Page Specific Styles */
+.hero-text h1 {
+    font-size: 4rem;
+    margin-bottom: var(--spacing-md);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.hero-text p {
+    font-size: 1.25rem;
+    margin-bottom: var(--spacing-lg);
+    color: #eee;
+}
+
+.service-overlap {
+    margin-top: -80px;
+    position: relative;
+    z-index: 10;
+}
+
+.about-preview-img {
+    position: relative;
+}
+
+.about-preview-img::before {
+    content: '';
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    width: 100%;
+    height: 100%;
+    border: 2px solid var(--primary-color);
+    z-index: -1;
+}
+
+.stats-section {
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+.stat-item {
+    text-align: center;
+}
+
+.stat-number {
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    display: block;
+}

@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lumina Skin Clinic | Advanced Dermatology & Aesthetics</title>
+    <meta name="description"
+        content="Premium skincare hospital offering advanced dermatology, aesthetic treatments, and personalized care. Book your consultation today.">
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Loader -->
+    <div class="loader-wrapper" id="loader">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container header-container">
+            <a href="index.html" class="logo">
+                <i class="fa-solid fa-leaf text-primary"></i>
+                Lumina Skin Clinic
+            </a>
+
+            <button class="mobile-toggle" aria-label="Toggle Navigation">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <nav class="navbar-nav">
+                <a href="index.html" class="nav-link active">Home</a>
+                <a href="about.html" class="nav-link">About Us</a>
+                <a href="services.html" class="nav-link">Services</a>
+                <a href="doctors.html" class="nav-link">Doctors</a>
+                <a href="blog.html" class="nav-link">Blog</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+                <a href="appointment.html" class="btn btn-primary btn-sm">Book Appointment</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section" style="background-image: url('assets/images/hero/banner.png');">
+        <div class="hero-overlay"></div>
+        <div class="hero-content animate-slide-up">
+            <h1 class="text-white">Reveal Your Natural Radiance</h1>
+            <p class="text-white mb-md">World-class dermatology and aesthetic treatments tailored just for you.</p>
+            <div class="flex-center gap-sm">
+                <a href="services.html" class="btn btn-primary">Our Services</a>
+                <a href="contact.html" class="btn btn-outline">Contact Us</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features / Stats Section -->
+    <section class="section stats-section service-overlap">
+        <div class="container">
+            <div class="grid grid-3 card">
+                <div class="stat-item p-md">
+                    <span class="stat-number">15+</span>
+                    <p>Years Experience</p>
+                </div>
+                <div class="stat-item p-md"
+                    style="border-left: 1px solid rgba(255,255,255,0.1); border-right: 1px solid rgba(255,255,255,0.1);">
+                    <span class="stat-number">10k+</span>
+                    <p>Happy Patients</p>
+                </div>
+                <div class="stat-item p-md">
+                    <span class="stat-number">50+</span>
+                    <p>Expert Specialists</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Teaser -->
+    <section class="section">
+        <div class="container">
+            <div class="grid grid-2 gap-lg align-items-center">
+                <div class="about-preview-img reveal">
+                    <img src="assets/images/hero/about-hero.png" alt="About Lumina Clinic"
+                        style="border-radius: var(--radius-md);">
+                </div>
+                <div class="reveal">
+                    <div class="section-title text-left">
+                        <span>Who We Are</span>
+                        <h2>Redefining Skincare Standards</h2>
+                    </div>
+                    <p class="mb-md">At Lumina Skin Clinic, we combine medical expertise with artistic precision. Our
+                        team of board-certified dermatologists and aesthetic specialists use the latest technology to
+                        help you achieve your skin goals.</p>
+                    <ul class="mb-md">
+                        <li><i class="fa-solid fa-check text-primary mr-2"></i> Advanced Laser Treatments</li>
+                        <li><i class="fa-solid fa-check text-primary mr-2"></i> Personalized Skincare Plans</li>
+                        <li><i class="fa-solid fa-check text-primary mr-2"></i> FDA-Approved Technologies</li>
+                    </ul>
+                    <a href="about.html" class="btn btn-secondary">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Preview -->
+    <section class="section section-bg-light">
+        <div class="container">
+            <div class="section-title reveal">
+                <span>What We Offer</span>
+                <h2>Our Premium Services</h2>
+            </div>
+            <div class="grid grid-3" id="services-preview">
+                <!-- Services will be loaded dynamically via JS or hardcoded for now -->
+                <div class="card service-card reveal">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-wand-magic-sparkles"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Laser Treatments</h3>
+                        <p class="card-text">State-of-the-art laser technology for hair removal, skin resurfacing, and
+                            pigmentation.</p>
+                        <a href="services.html" class="text-primary font-bold">Read More &rarr;</a>
+                    </div>
+                </div>
+                <div class="card service-card reveal">
+                    <div class="service-icon">
+                        <i class="fa-regular fa-face-smile"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Facial Aesthetics</h3>
+                        <p class="card-text">Botox, fillers, and non-surgical facelifts to restore youth and volume.</p>
+                        <a href="services.html" class="text-primary font-bold">Read More &rarr;</a>
+                    </div>
+                </div>
+                <div class="card service-card reveal">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-user-doctor"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Clinical Dermatology</h3>
+                        <p class="card-text">Expert diagnosis and treatment for acne, eczema, psoriasis, and other skin
+                            conditions.</p>
+                        <a href="services.html" class="text-primary font-bold">Read More &rarr;</a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-lg">
+                <a href="services.html" class="btn btn-primary">View All Services</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Doctors Preview -->
+    <section class="section">
+        <div class="container">
+            <div class="section-title reveal">
+                <span>Meet The Experts</span>
+                <h2>Our Medical Team</h2>
+            </div>
+            <div class="grid grid-3">
+                <div class="card doctor-card reveal">
+                    <div class="card-image">
+                        <img src="assets/images/doctors/doctor1.png" alt="Dr. Sarah Johnson">
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Dr. Sarah Johnson</h3>
+                        <p class="doctor-specialty">Chief Dermatologist</p>
+                        <p class="card-text">Specializes in cosmetic dermatology and laser surgery with 15 years of
+                            experience.</p>
+                        <div class="flex-center gap-sm">
+                            <a href="#" class="text-secondary"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="#" class="text-secondary"><i class="fa-brands fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card doctor-card reveal">
+                    <div class="card-image">
+                        <img src="assets/images/doctors/doctor2.png" alt="Dr. Michael Chen">
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Dr. Michael Chen</h3>
+                        <p class="doctor-specialty">Plastic Surgeon</p>
+                        <p class="card-text">Expert in facial reconstruction and aesthetic enhancements.</p>
+                        <div class="flex-center gap-sm">
+                            <a href="#" class="text-secondary"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card doctor-card reveal">
+                    <div class="card-image">
+                        <img src="assets/images/doctors/doctor3.png" alt="Dr. Emily Davis">
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Dr. Emily Davis</h3>
+                        <p class="doctor-specialty">Clinical Aesthetician</p>
+                        <p class="card-text">Focuses on holistic skincare and advanced facial treatments.</p>
+                        <div class="flex-center gap-sm">
+                            <a href="#" class="text-secondary"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section bg-pattern" style="background-color: var(--secondary-color); color: white;">
+        <div class="container text-center reveal">
+            <h2 class="text-primary mb-sm">Ready to Glow?</h2>
+            <p class="mb-md" style="max-width: 600px; margin: 0 auto 2rem;">Book your consultation today and take the
+                first step towards your dream skin.</p>
+            <a href="appointment.html" class="btn btn-primary btn-lg">Book Appointment Now</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <h2>Lumina.</h2>
+                    <p>Advanced skincare solutions tailored to your unique needs. We combine science and art to reveal
+                        your best self.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="doctors.html">Doctors</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="services.html">Laser Therapy</a></li>
+                        <li><a href="services.html">Chemical Peels</a></li>
+                        <li><a href="services.html">Botox & Fillers</a></li>
+                        <li><a href="services.html">Acne Treatment</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact Us</h3>
+                    <ul>
+                        <li><i class="fa-solid fa-location-dot mr-2"></i> 123 Skin Avenue, Med City</li>
+                        <li><i class="fa-solid fa-phone mr-2"></i> +1 (555) 123-4567</li>
+                        <li><i class="fa-solid fa-envelope mr-2"></i> info@luminaclinic.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Lumina Skin Clinic. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Quick Booking Modal -->
+    <div class="modal" id="bookingModal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2 class="text-secondary mb-sm">Request a Callback</h2>
+            <p class="mb-md">Leave your details and we'll get back to you within 24 hours.</p>
+            <form id="modalForm">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="tel" class="form-control" placeholder="Phone Number" required>
+                </div>
+                <button type="submit" class="btn btn-primary w-full">Request Callback</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/utils/helpers.js"></script>
+    <script src="js/components/navbar.js"></script>
+    <script src="js/components/scrollAnimations.js"></script>
+    <script src="js/components/modal.js"></script>
+    <script src="js/components/formHandler.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

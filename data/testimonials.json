@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "name": "Jessica M.",
+        "role": "Laser Treatment Patient",
+        "quote": "I've never felt more confident in my skin.",
+        "avatar": "https://image.pollinations.ai/prompt/portrait%20young%20woman%20glowing%20skin%20natural%20happy%20patient?width=150&height=150&nologo=true"
+    },
+    {
+        "id": 2,
+        "name": "Amanda K.",
+        "role": "Dermal Fillers Patient",
+        "quote": "Dr. Johnson is a magician! The results are so natural.",
+        "avatar": "https://image.pollinations.ai/prompt/portrait%20middle%20aged%20woman%20beautiful%20smile%20skincare%20results?width=150&height=150&nologo=true"
+    },
+    {
+        "id": 3,
+        "name": "David R.",
+        "role": "Acne Treatment Patient",
+        "quote": "Professional staff and a beautiful clinic.",
+        "avatar": "https://image.pollinations.ai/prompt/portrait%20young%20man%20clear%20skin%20acne%20treatment%20success?width=150&height=150&nologo=true"
+    }
+]

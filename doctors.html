@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Doctors | Lumina Skin Clinic</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="loader-wrapper" id="loader">
+        <div class="loader"></div>
+    </div>
+
+    <header class="header" id="header">
+        <div class="container header-container">
+            <a href="index.html" class="logo"><i class="fa-solid fa-leaf text-primary"></i> Lumina Skin Clinic</a>
+            <button class="mobile-toggle"><i class="fa-solid fa-bars"></i></button>
+            <nav class="navbar-nav">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">About Us</a>
+                <a href="services.html" class="nav-link">Services</a>
+                <a href="doctors.html" class="nav-link active">Doctors</a>
+                <a href="blog.html" class="nav-link">Blog</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+                <a href="appointment.html" class="btn btn-primary btn-sm">Book Appointment</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero-section" style="height: 50vh; background-image: url('assets/images/hero/doctors-hero.png');">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Meet Our Experts</h1>
+            <p>Dedicated to your skin health and beauty.</p>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <div class="grid grid-3">
+                <!-- Doctor 1 -->
+                <div class="card doctor-card reveal">
+                    <div class="card-image">
+                        <img src="assets/images/doctors/doctor1.png" alt="Dr. Sarah Johnson">
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Dr. Sarah Johnson</h3>
+                        <p class="doctor-specialty">Chief Dermatologist</p>
+                        <p class="card-text">Specializes in cosmetic dermatology and laser surgery with 15 years of
+                            experience.</p>
+                        <a href="#" class="btn btn-outline text-secondary border-secondary btn-sm mt-sm">View
+                            Profile</a>
+                    </div>
+                </div>
+                <!-- Doctor 2 -->
+                <div class="card doctor-card reveal">
+                    <div class="card-image">
+                        <img src="assets/images/doctors/doctor2.png" alt="Dr. Michael Chen">
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Dr. Michael Chen</h3>
+                        <p class="doctor-specialty">Plastic Surgeon</p>
+                        <p class="card-text">Expert in facial reconstruction and aesthetic enhancements.</p>
+                        <a href="#" class="btn btn-outline text-secondary border-secondary btn-sm mt-sm">View
+                            Profile</a>
+                    </div>
+                </div>
+                <!-- Doctor 3 -->
+                <div class="card doctor-card reveal">
+                    <div class="card-image">
+                        <img src="assets/images/doctors/doctor3.png" alt="Dr. Emily Davis">
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Dr. Emily Davis</h3>
+                        <p class="doctor-specialty">Clinical Aesthetician</p>
+                        <p class="card-text">Focuses on holistic skincare and advanced facial treatments.</p>
+                        <a href="#" class="btn btn-outline text-secondary border-secondary btn-sm mt-sm">View
+                            Profile</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container text-center">
+            <p>&copy; 2026 Lumina Skin Clinic.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/components/navbar.js"></script>
+    <script src="js/components/scrollAnimations.js"></script>
+</body>
+
+</html>

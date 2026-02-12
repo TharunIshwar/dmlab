@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Lumina Skin Clinic</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="loader-wrapper" id="loader">
+        <div class="loader"></div>
+    </div>
+
+    <header class="header" id="header">
+        <div class="container header-container">
+            <a href="index.html" class="logo"><i class="fa-solid fa-leaf text-primary"></i> Lumina Skin Clinic</a>
+            <button class="mobile-toggle"><i class="fa-solid fa-bars"></i></button>
+            <nav class="navbar-nav">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">About Us</a>
+                <a href="services.html" class="nav-link">Services</a>
+                <a href="doctors.html" class="nav-link">Doctors</a>
+                <a href="blog.html" class="nav-link">Blog</a>
+                <a href="contact.html" class="nav-link active">Contact</a>
+                <a href="appointment.html" class="btn btn-primary btn-sm">Book Appointment</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero-section" style="height: 40vh; background-image: url('assets/images/hero/contact-hero.png');">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Contact Us</h1>
+            <p>We'd love to hear from you.</p>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <div class="grid grid-2 gap-lg">
+                <div class="contact-info reveal">
+                    <h2>Get In Touch</h2>
+                    <p class="mb-md">Have questions about our services or need to schedule a consultation? Reach out to
+                        us.</p>
+
+                    <div class="mb-md">
+                        <h3 class="text-primary"><i class="fa-solid fa-location-dot mr-2"></i> Address</h3>
+                        <p>123 Skin Avenue, Med City, State, 12345</p>
+                    </div>
+
+                    <div class="mb-md">
+                        <h3 class="text-primary"><i class="fa-solid fa-phone mr-2"></i> Phone</h3>
+                        <p>+1 (555) 123-4567</p>
+                    </div>
+
+                    <div class="mb-md">
+                        <h3 class="text-primary"><i class="fa-solid fa-envelope mr-2"></i> Email</h3>
+                        <p>info@luminaclinic.com</p>
+                    </div>
+
+                    <div class="mb-md">
+                        <h3 class="text-primary"><i class="fa-regular fa-clock mr-2"></i> Hours</h3>
+                        <p>Mon - Fri: 9:00 AM - 6:00 PM</p>
+                        <p>Sat: 10:00 AM - 4:00 PM</p>
+                        <p>Sun: Closed</p>
+                    </div>
+                </div>
+
+                <div class="contact-form-wrapper reveal">
+                    <h2>Send a Message</h2>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Full Name</label>
+                            <input type="text" id="name" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email Address</label>
+                            <input type="email" id="email" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea id="message" class="form-control" resize="vertical" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-full">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Placeholder -->
+    <section class="section p-0">
+        <div
+            style="height: 400px; background-color: #eee; display: flex; align-items: center; justify-content: center; color: #888;">
+            <i class="fa-solid fa-map-location-dot" style="font-size: 3rem;"></i>
+            <span style="margin-left: 10px; font-size: 1.5rem;">Google Maps Placeholder</span>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container text-center">
+            <p>&copy; 2026 Lumina Skin Clinic.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/components/navbar.js"></script>
+    <script src="js/components/scrollAnimations.js"></script>
+    <script src="js/components/formHandler.js"></script>
+</body>
+
+</html>

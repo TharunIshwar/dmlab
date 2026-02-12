@@ -1,0 +1,32 @@
+/* Main CSS Entry Point */
+
+/* Base Styles */
+@import 'base/variables.css';
+@import 'base/reset.css';
+@import 'base/typography.css';
+@import 'base/animations.css';
+
+/* Layout Styles */
+@import 'layout/grid.css';
+@import 'layout/header.css';
+@import 'layout/footer.css';
+@import 'layout/sections.css';
+
+/* Component Styles */
+@import 'components/navbar.css';
+@import 'components/buttons.css';
+@import 'components/cards.css';
+@import 'components/modal.css';
+@import 'components/forms.css';
+@import 'components/accordion.css';
+@import 'components/slider.css';
+@import 'components/tabs.css';
+@import 'components/testimonials.css';
+@import 'components/loader.css';
+
+/* Page Styles */
+@import 'pages/home.css';
+@import 'pages/services.css';
+@import 'pages/doctors.css';
+@import 'pages/appointment.css';
+@import 'pages/contact.css';
